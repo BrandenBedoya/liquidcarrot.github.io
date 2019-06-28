@@ -1,0 +1,13 @@
+.logos-list {
+    align-items: flex-start;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+   .a-vertical {
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -15px;
+    text-align: center;
+  }

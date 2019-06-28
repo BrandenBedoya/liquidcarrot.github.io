@@ -1,0 +1,25 @@
+{
+  "name": "liquidcarrot.github.io",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">   <br>   <a href=\"https://www.liquidcarrot.io\">     <img src=\"https://i.imgur.com/ECqkvko.png\" alt=\"Liquid Carrot\" width=\"500\">   </a>   <br> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandenBedoya/liquidcarrot.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandenBedoya/liquidcarrot.github.io/issues"
+  },
+  "homepage": "https://github.com/BrandenBedoya/liquidcarrot.github.io#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "buefy": "^0.7.8"
+  }
+}
