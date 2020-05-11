@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="liquid-carrot-favicon.png">
+  
+  <title>Liquid Carrot</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/pulse/bulmaswatch.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@2.0.2/dist/css/bulma-tooltip.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <!--<link rel="stylesheet" href="./assets/css/app.css">-->
+  <link rel="stylesheet" href="./templates/kit-landing-3/css/app.css">
+  <link rel="stylesheet" href="./templates/kit-landing-3/css/bulma.css">
+  <link rel="stylesheet" href="./templates/kit-landing-3/css/core_deep-blue.css">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="">
+  <!--<link rel="stylesheet" href="style.css">-->
+  <!-- END Stylesheets -->
+  
+  <!-- Scripts -->
+  <script async defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script defer src="./bulkit-2.3.0/kit-landing-3/js/main.js"></script>
+  <!-- END Scripts -->
+</head>
+<body>
+  <!-- Application -->
+  <div id="app">
+        <div class="pageloader"></div>
+        <!-- Hero and nav -->
+        <div class="hero hero-wavy is-relative is-theme-warning huge-pb" style="background-color:#FF7518">
+          <!--<style = "#FF7518"></style>-->
+            <canvas id="canvas"></canvas>
+        
+                <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent" style="background-color:grey" role="navigation" aria-label="main navigation">
+            <!--<nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent"> this style goes on line above style="padding: 10px;"-->
+                <div class="container">
+                    <!-- Brand -->
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://liquidcarrot.io/carrot/">
+                            <!--<meta charset="utf-8">-->
+                            
+                            <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+                            <img src="./img/liquid-carrot-favicon.png">
+                        </a>
+            
+                        <!-- Sidebar Trigger -->
+                        <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                <span class="icon-box-toggle">
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+            
+                        <!-- Responsive toggle -->
+                        <div class="custom-burger" data-target="">
+                            <a id="" class="responsive-btn" href="javascript:void(0);">
+                                <span class="menu-toggle">
+                                    <span class="icon-box-toggle">
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- /Responsive toggle -->
+                    </div>
+            
+                    <!-- Navbar menu -->
+                    <div class="navbar-menu">
+                        <!-- Navbar Start -->
+                        <div class="navbar-start">
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide" href="landing-v2-features.html">
+                                Features
+                            </a>
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide" href="landing-v2-pricing.html">
+                                Pricing
+                            </a>
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide" href="landing-v2-login.html">
+                                Login
+                            </a>
+                        </div>
+            
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+                            <!-- Signup button -->
+                            <div class="navbar-item">
+                                <a id="#signup-btn" href="landing-v2-signup.html" class="button button-signup btn-outlined is-bold btn-align light-btn rounded raised">
+                                    Sign up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Hero image -->
+            <div id="main-hero" class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="columns is-vcentered">
+                        <!-- Caption -->
+                        <div class="column is-5 hero-caption">
+                            <h1 class="title big-landing-title text-bold is-2">
+                                Welcome to <br> Liquid Carrot
+                            </h1>
+                            <h2 class="subtitle is-5 light-text pt-10 pb-10">
+                              * insert generic team shit here *
+                              
+                                <br> An <strong>open source</strong> AI framework library for Java Script developers <br>
+                                We specialize in creating neural network systems and deep learning models for structured and unstructured data sets
+                            </h2>
+                            <p class="pt-10 pb-10">
+                                <a href="https://liquidcarrot.io/carrot/" class="button button-cta light-btn btn-outlined is-bold rounded z-index-2">
+                                    Get Started
+                                </a>
+                            </p>
+                        </div>
+                        <!-- Hero image -->
+                        <div class="column is-9">
+                            <figure class="image">
+                                <img src="assets/images/illustrations/mockups/landing2/macbook-chat.png" alt="">
+                            </figure>
+                        </div>
+                        <!-- /Hero image -->
+                    </div>
+                </div>
+                <!-- Floating little avatars -->
+                <!--<div class="floating-avatars is-hidden-mobile">-->
+                    <!--<img class="avatar avatar-1st levitate delay-1" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/helen.jpg">-->
+                    <!--<img class="avatar avatar-2nd levitate delay-3" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/anthony.jpg">-->
+                    <!--<img class="avatar avatar-3rd levitate delay-8" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/lakisha.jpg">-->
+                    <!--<img class="avatar avatar-4th levitate delay-6" src="https://via.placeholder.com/250x250" alt=""-->
+                    <!--data-demo-src="assets/images/avatars/elie.jpg">-->
+                    <!--<img class="avatar avatar-5th levitate delay-4" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/thomas.jpg">-->
+                    <!--<img class="avatar avatar-6th levitate delay-2" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/alex.jpg">-->
+                    <!--<img class="avatar avatar-7th levitate delay-1" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/henry.jpg">-->
+                    <!--<img class="avatar avatar-8th levitate delay-8" src="https://via.placeholder.com/250x250" alt=""-->
+                        <!--data-demo-src="assets/images/avatars/melany.jpg">-->
+                <!--</div>-->
+                <!-- /Floating little avatars -->
+            </div>
+            <!-- /Hero image -->
+        </div>
+        <!-- /Hero and nav -->
+    
+    
+     <section class="section">
+         <!--<div class="container">-->
+            <div class="title-wrap has-text-centered">
+         <h1 class="title">
+				  Press & Events
+				</h1> <br>
+        <section class="section">
+          <!--<p class="lc-partner-title has-text-centered-mobile">-->
+      			<div class="container">
+      				<div class="columns">
+      				  <!--Link style sheet from other tab-->
+      					<div class="column">
+      							<img src="./img/startup-fiu.png" alt="startup-fiu" class="a-vertical">
+      						</div>
+      					<div class="column">
+      					      <img src="./img/idea-center-mdc.png" alt="idea-center-mdc" class="a-vertical">
+      						</div>
+      					<div class="colu.mn">
+      				        <img src="./img/the-venture-city.jpeg" alt="the-venture-city" class="a-vertical">
+      						</div>
+      					<div class="column">
+                      <img src="./img/unbound-miami.png" alt="unbound-miami" class="a-vertical">
+      					  </div>
+      					<div class="column">
+      							  <img src="./img/venture-mentoring-team.png" alt="venture-mentoring-team" class="a-vertical">
+      						</div>
+      					<div class="column">
+      							  <img src="./img/y-combinator.png" alt="y-combinator" class="a-vertical">
+      						</div>
+      					<div class="column">
+      						  <img src="./img/emerge.jpeg" alt="emerge" class="a-vertical">
+      					</div>
+      					</div>
+      			</div>
+      		</section>
+      		
+          <!-- News section -->
+          <div class="section is-medium">
+              <div class="container">
+                  <div class="title-wrap has-text-centered">
+                      <h2 class="title is-spaced is-3">Latest news</h2>
+                      <h3 class="subtitle">Stay updated with our team and all of our advancements</h3>
+                      <!-- Special divider -->
+                      <!--<img src="assets/images/icons/divider.svg" class="special-divider" alt="">-->
+                  </div>
+                  <!-- Wrapper -->
+                  <div class="content-wrapper">
+                      <div class="columns">
+                          <!-- Featured Post -->
+                          <div class="column is-6">
+                              <div class="main-post">
+                                  <!-- Featured image -->
+                                  <div class="post-image">
+                                      <img src="./img/luis-and-chris.jpeg" alt="emerge-luis-chris">
+                  
+                                      <!--<div class="image-overlay"></div>-->
+                                  </div>
+                                  <!-- Featured Content -->
+                                  <div class="post-content">
+                                      <h3><a href="#">Co-founders at eMerge Americas 2019</a></h3>
+                                      <span class="time">April 29-30th 2019</span>
+                                      <p>Liquid Carrot finished top 25 - talking to various other professionals in the tech space, investors, and enthusiasts!</p>
+                                      <!-- Read more -->
+                                      <!--<a class="read-more" href="#">Continue reading <i class="im im-icon-Right"></i></a>-->
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="column is-6">
+                              <!-- Recent Post -->
+                              <div class="side-post">
+                                  <!-- Featured image -->
+                                  <div class="post-image">
+                                      <img src="https://via.placeholder.com/1600x900" alt=""
+                                          data-demo-src="https://source.unsplash.com/RgXO6LZbZgg/1600x900">
+                                      <div class="image-overlay"></div>
+                                  </div>
+                                  <!-- Featured content -->
+                                  <div class="post-content">
+                                      <h3><a href="#">Learning design has become trendy in 2018</a></h3>
+                                      <p>Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare ...</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- /News section -->
+      		
+      		   <!-- Services section -->
+          <section id="services" class="section is-medium">
+              <div class="container">
+                  <!-- Title -->
+                  <div class="section-title-wrapper has-text-centered">
+                      <h2 class="section-title-landing">
+                          Artificial Intelligence, made easy
+                      </h2>
+                      <h4>Optimized for perfomance, compatability, and ease-of-use.</h4>
+                  </div>
+      		
+      		<!-- /Title -->
+                <div class="content-wrapper">
+                    <div class="columns is-vcentered is-multiline has-text-centered">
+                        <!-- Icon block -->
+                        <div class="column is-3">
+                            <div class="chat-icon-box">
+                                <div>
+                                    <i class="im im-icon-Big-Data"></i>
+                                </div>
+                                <div class="box-title">Large Data Processing</div>
+                                <p class="box-content is-tablet-padded">Easily chunk up massive GB/TB sized files using streams to train bots with Carrot.</p>
+                            </div>
+                        </div>
+                        <!-- Icon block -->
+                        <div class="column is-3">
+                            <div class="chat-icon-box">
+                                <div>
+                                    <i class="im im-icon-Robot-2"></i>
+                                </div>
+                                <div class="box-title">Bots to Automate Processes</div>
+                                <p class="box-content is-tablet-padded">Plug bots directly into third-party API endpoints and automated function calls.</p>
+                            </div>
+                        </div>
+                        <!-- Icon block -->
+                        <div class="column is-3">
+                            <div class="chat-icon-box">
+                                <div>
+                                    <i class="im im-icon-Network-Window"></i>
+                                </div>
+                                <div class="box-title">Unstructured Data</div>
+                                <p class="box-content is-tablet-padded">Waste little to no time cleaning or re-structuring your data.</p>
+                            </div>
+                        </div>
+                        <!-- Icon block -->
+                        <div class="column is-3">
+                            <div class="chat-icon-box">
+                                <div>
+                                    <i class="im im-icon-Gamepad"></i>
+                                </div>
+                                <div class="box-title">Plug n Play</div>
+                                <p class="box-content is-tablet-padded">Copy and paste code directly from our documentation and kickstart your project.</p>
+                            </div>
+                        </div>
+                    </div> <br><br><br><br>
+                    
+              <!-- Feature -->
+              <section class="section section-feature-grey is-medium is-relative is-skewed-sm">
+                <div class="container is-reverse-skewed-sm">
+                    <div class="columns is-vcentered">
+                        <!-- Content -->
+                        <div class="column is-4 is-offset-2">
+                            <div class="icon-subtitle"><i class="im im-icon-Share-Window"></i></div>
+                            <h2 class="title quick-feature is-handwritten">
+                                Team Values
+                            </h2>
+                            <div class="title-divider is-small"></div>
+                            <span class="section-feature-description">Liquid Carrot aims to propel humanity to reach new heights. We see the potential AI has to leading to new inventions to maximize efficiency, recycling of resources, and expanding knowledge.</span>
+                            <div class="pt-10 pb-10">
+                                <a href="#" class="button btn-align btn-more is-link color-primary">
+                                    Read more about our Master Plan <i class="sl sl-icon-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+            
+                        <div class="column is-6 has-text-centered">
+                            <!-- Featured illustration -->
+                            <img class="featured-svg levitate" src="assets/images/illustrations/drawings/learn.svg" alt="">
+                            <!-- /Featured illustration -->
+                        </div>
+                    </div>
+                </div>
+              </section>
+  
+                            <p class="pt-10 pb-10" style="background-color:#FF7518">
+                                <a href="https://liquidcarrot.io/carrot/" class="button button-cta light-btn btn-outlined is-bold rounded z-index-2">
+                                    Get Started
+                                </a>
+                            </p>
+
+              <!--Have a "get started" here?-->
+      
+              <!-- Footer light -->
+              <footer class="footer footer-light">
+                  <div class="container">
+                      <div class="columns footer-columns is-flex-mobile">
+                          <!-- Column -->
+                          <div class="column is-half-mobile">
+                              <div class="footer-column">
+                                  <div class="footer-header">
+                                      <h3>Company</h3>
+                                  </div>
+                                  <ul class="link-list">
+                                      <li><a href="#">About us</a></li>
+                                      <li><a href="#">Team</a></li>
+                                      <li><a href="#">Contact</a></li>
+                                      <li><a href="#">Terms of service</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <!-- Column -->
+                          <div class="column is-half-mobile">
+                              <div class="footer-column">
+                                  <div class="footer-header">
+                                      <h3>Documents</h3>
+                                  </div>
+                                  <ul class="link-list">
+                                      <li><a href="#">Classes</a></li>
+                                      <li><a href="#">Namespaces</a></li>
+                                      <li><a href="#">Global</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <!-- Column -->
+                          <div class="column is-half-mobile">
+                              <div class="footer-column">
+                                  <div class="footer-header">
+                                      <h3>More</h3>
+                                  </div>
+                                  <ul class="link-list">
+                                      <li><a href="#">Expo</a></li>
+                                      <li><a href="#">Love</a></li>
+                                      <li><a href="#">Patreon Backers</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <!-- Column -->
+                          <div class="column is-half-mobile">
+                              <div class="footer-column">
+                                  <div class="footer-logo">
+                                      <img src="assets/images/logos/bulkit-purple.svg" alt="">
+                                  </div>
+                                
+                                  <div class="copyright">
+                                      <span class="moto dark-text">Designed and coded with <i class="fa fa-heart color-red"></i> by CSS Ninja.</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+              <!-- /Footer light -->
+      
+  </div>
+  <!-- END Application -->
+  
+  <!-- Scripts -->
+  <script src="https://unpkg.com/vue"></script>
+  <!-- Full bundle -->
+  <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/neo-async/2.3.0/async.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script>
+  
+  <!-- Individual components -->
+  <script src="https://unpkg.com/buefy/dist/components/table"></script>
+  <script src="https://unpkg.com/buefy/dist/components/input"></script>
+  
+  <script>
+    new Vue({
+      el: "#app",
+      data: {
+        burger: false,
+        npmi: false
+      },
+      methods: {
+        showNPMI() {
+          let self = this;
+
+          self.npmi = true;
+          setTimeout(function() { self.npmi = false; }, 2000)
+        }
+      },
+      created() {
+        // CHECK: https://codepen.io/burnaDLX/pen/GowJpX
+        new Clipboard('.button');
+      }
+    })
+  </script>
+  <!-- END Scripts -->
+</body>
+</html>
